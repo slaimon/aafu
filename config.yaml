@@ -28,10 +28,10 @@ params:
     title: Links
     list:
       - icon: fab fa-linkedin-in
-        url: "#"
+        url: "https://www.linkedin.com/in/simone-bertolucci-b10725259/"
         title: LinkedIn
       - icon: fab fa-github
-        url: "#"
+        url: "https://github.com/slaimon"
         title: GitHub
       - icon: fa fa-envelope
         url: "mailto:simonebertolucci@proton.me"
@@ -40,11 +40,10 @@ params:
     - item: aboutme
       expand: true
     - item: experience
+    - item: voluntary
     - item: education
     - item: project
-    - item: voluntary
     - item: skill
-    - item: hobby
   aboutme:
     title: About Me
     icon: fas fa-user
@@ -61,66 +60,74 @@ params:
         company: Biblioteca Agorà
         url: "https://bibliotecaagora.it/"
         details: |1-
-          Ho tenuto quattro edizioni di un corso introduttivo all'uso del PC
-      - position: Job Title
-        dates: 2018 - 2019
-        url: "#"
-        company: Company Name
+          Ho tenuto quattro edizioni di un corso introduttivo all'uso del PC. L'esperienza mi ha aiutato a sviluppare abilità nel:
+          - Parlare in pubblico
+          - Esporre concetti complessi
+          - Organizzazione
   voluntary:
     title: Volontariato
     icon: fas fa-heart
     list:
-      - position: 
+      - position: Riparazione PC e assistenza IT
         dates: 2020 - 2021
         institution: Hacking Labs APS
+        url: https://hackinglabs.it/
+        details: |1-
+          - Abilità tecniche
+          - Orientamento al cliente
+      - position: Organizzatore e Portavoce
+        dates: 2019 - 2021
+        institution: Earth Strike Lucca
+        url: https://www.instagram.com/earthstrikelucca/
+        details: |1-
+          - Team working
+          - Organizzazione di eventi a grande affluenza (>2000 persone)
+          - Comunicazione efficace anche in situazioni di conflitto
+          - Negoziazione win-win nell'ambito delle politiche comunali
   education:
     title: Formazione
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
+      - degree: Laurea in Informatica
+        college: Università di Pisa
+        dates: 2018 - *oggi*
+        details: |1-
+          - Analisi e progettazione di algoritmi
+          - Programmazione in C, C++, OpenGL, Java, Python, Matlab e Caml
+          - Programmazione concorrente su sistemi POSIX
+          - Progettazione e interrogazione di database relazionali
+          - Progettazione di un sistema software con Visual Paradigm
+      - degree: Diploma di Liceo Scientifico
+        college: Liceo Scientifico A.Vallisneri
+        dates: 2010 - 2015
   project:
     title: Progetti
     icon: fa fa-code
     list:
-      - title: Project 1
+      - title: Questa pagina web
         url: "#"
-        description: Description of the project
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
+        description: Ho creato questa pagina web usando il generatore statico **Hugo**.
+      - title: CarOusel
+        url: "https://github.com/slaimon/carousel"
+        description: Una scena 3D esplorabile con illuminazione e ombre dinamiche, scritta in **C++** con **OpenGL**.
+      - title: Crystal Pixels Online Editor
+        url: "https://github.com/slaimon/cryxtels-editor"
+        description: Un'interfaccia web per creare semplici modelli 3D, basata su **THREE.js**.
+      - title: WebGL random-art
+        url: "https://slaimon.github.io/webgl-random-art-demo/"
+        description: Ho operato l'**ingegneria inversa** su di un vecchio sito e l'ho reso 100 volte più veloce con **WebGL**.
   skill:
     title: Skills
     panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: "Skill 1, Skill 2"
-        skillrating: 90
-      - skill: Skill 3
-        skillrating: 80
-      - skill: Skill 4
+      - skill: "C / C++"
+        skillrating: 75
+      - skill: "HTML / CSS / JS"
         skillrating: 50
-  hobby:
-    title: Hobby
-    icon: fas fa-gamepad
-    list:
-      - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+      - skill: "Italiano"
+        skillrating: 100
+      - skill: "Inglese"
+        skillrating: 100
+      - skill: "Tedesco"
+        skillrating: 30
