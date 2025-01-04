@@ -3,30 +3,26 @@ languageCode: en-us
 build:
   writeStats: true
 params:
-  title: aafu theme
-  author: Darshan Baral
-  description: Website title
+  title: Simone Bertolucci
+  author: Simone Bertolucci
+  description: Curriculum Vitae
   copyright: >-
-    powered by [hugo](https://gohugo.io/) & deployed on
-    [Cloudflare](https://www.cloudflare.com/)
+    powered by [Hugo](https://gohugo.io/)
   theme:
     mainTheme: dark
     showAttribute: true
-    singlePage: false
   favicons:
     use: true
     metas: |2-
-              <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-              <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-              <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-              <link rel="manifest" href="site.webmanifest">
-              <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
-              <link rel="shortcut icon" href="favicon.ico">
+      <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      <link rel="manifest" href="/site.webmanifest" />
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
+    name: "Simone Bertolucci"
+    location: "based in Pisa"
     photo: profile.jpg
   social:
     title: Links
@@ -34,55 +30,51 @@ params:
       - icon: fab fa-linkedin-in
         url: "#"
         title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
-        title: StackOverflow
       - icon: fab fa-github
         url: "#"
         title: GitHub
-      - icon: fab fa-twitter
-        url: "#"
-        title: Twitter
-      - icon: fab fa-orcid
-        url: "#"
-        title: Orcid
-      - icon: ai ai-google-scholar
-        url: "#"
-        title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
-        title: ResearchGate
+      - icon: fa fa-envelope
+        url: "mailto:simonebertolucci@proton.me"
+        title: Email
   showInAccordion:
     - item: aboutme
       expand: true
     - item: experience
     - item: education
-    - item: publication
     - item: project
+    - item: voluntary
     - item: skill
     - item: hobby
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
+    description: |
+      Sono un laureando in Informatica all'Università di Pisa in cerca di esperienza lavorativa per arricchire le mie competenze.
+
+      Sono nato il 20/01/1997 e risiedo a **Cisanello, Pisa**
   experience:
-    title: Experiences
-    icon: fas fa-briefcase
+    title: Esperienze Lavorative
+    icon: fas fa-suitcase
     list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
+      - position: Alfabetizzazione Informatica
+        dates: 2023 - 2024
+        company: Biblioteca Agorà
+        url: "https://bibliotecaagora.it/"
         details: |1-
-          - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
+          Ho tenuto quattro edizioni di un corso introduttivo all'uso del PC
       - position: Job Title
         dates: 2018 - 2019
         url: "#"
         company: Company Name
+  voluntary:
+    title: Volontariato
+    icon: fas fa-heart
+    list:
+      - position: 
+        dates: 2020 - 2021
+        institution: Hacking Labs APS
   education:
-    title: Education
+    title: Formazione
     icon: fas fa-graduation-cap
     list:
       - degree: Ph.D. in Subject
@@ -98,45 +90,9 @@ params:
       - degree: B.S. in Subject
         college: University of State-City
         dates: 2004 - 2009
-  publication:
-    title: Publications
-    icon: fas fa-book
-    format:
-      - date
-      - title
-      - authors
-      - journal
-    types:
-      - Journal Articles
-      - Proceedings
-    list:
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Proceedings
   project:
-    title: Projects
-    icon: fas fa-project-diagram
+    title: Progetti
+    icon: fa fa-code
     list:
       - title: Project 1
         url: "#"
@@ -162,7 +118,7 @@ params:
       - skill: Skill 4
         skillrating: 50
   hobby:
-    title: Hobbies
+    title: Hobby
     icon: fas fa-gamepad
     list:
       - hobby: Cooking
