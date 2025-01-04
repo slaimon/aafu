@@ -22,7 +22,7 @@ params:
 
   profile:
     name: "Simone Bertolucci"
-    location: "based in Pisa"
+    location: "CS student based in Pisa"
     photo: profile.jpg
   social:
     title: Links
