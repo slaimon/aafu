@@ -104,18 +104,17 @@ params:
     title: Progetti
     icon: fa fa-code
     list:
-      - title: Questa pagina web
-        url: "#"
-        description: Ho creato questa pagina web usando il generatore statico **Hugo**.
       - title: CarOusel
         url: "https://github.com/slaimon/carousel"
         description: Una scena 3D esplorabile con illuminazione e ombre dinamiche, scritta in **C++** con **OpenGL**.
       - title: Crystal Pixels Online Editor
-        url: "https://github.com/slaimon/cryxtels-editor"
+        url: "https://slaimon.github.io/cryxtels-editor/"
         description: Un'interfaccia web per creare semplici modelli 3D, basata su **THREE.js**.
       - title: WebGL random-art
         url: "https://slaimon.github.io/webgl-random-art-demo/"
         description: Ho operato l'**ingegneria inversa** su di un vecchio sito e l'ho reso 100 volte più veloce con **WebGL**.
+      - title: Questa pagina web
+        description: Ho creato questa pagina web usando il generatore statico **Hugo**.
   skill:
     title: Skills
     panelId: skill-panel
@@ -125,9 +124,9 @@ params:
         skillrating: 75
       - skill: "HTML / CSS / JS"
         skillrating: 50
-      - skill: "Italiano"
+      - skill: "Italiano (madrelingua)"
         skillrating: 100
-      - skill: "Inglese"
+      - skill: "Inglese (C2)"
         skillrating: 100
-      - skill: "Tedesco"
+      - skill: "Tedesco (A2)"
         skillrating: 30

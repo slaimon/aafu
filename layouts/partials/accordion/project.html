@@ -1,6 +1,8 @@
 {{ range.Site.Params.project.list }}
 <h4>
-  <a href="{{ .url }}">{{- .title -}}</a>
+  {{if .url}} <a href="{{ .url }}">{{- .title -}}</a>
+  {{else}}<span>{{- .title -}}</span>
+  {{end}}
 </h4>
 <p class="markdownify" style="padding-left: 1rem">{{- .description | markdownify -}}</p>
 {{ end }}
